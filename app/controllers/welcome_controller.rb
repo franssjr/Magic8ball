@@ -1,4 +1,5 @@
 class WelcomeController < ApplicationController
+
   def index
   	# Message.create(the_message: "It is certain")
   	# Message.create(the_message: "It is decidedly so")
@@ -20,9 +21,14 @@ class WelcomeController < ApplicationController
   	# Message.create(the_message: "My sources say no")
   	# Message.create(the_message: "Outlook not so good")
   	# Message.create(the_message: "Very doubtful")
-  	
-	rand_num = rand(20) + 1
 
-  	@answer = Message.find(rand_num)
+    @rand_num = rand(20) + 1
+
+    @answer = Message.find(@rand_num)
+
+    Message.create(the_message: @answer.the_message)
+
+    #@test_index = Message.count
+
   end
 end
