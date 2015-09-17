@@ -1,0 +1,5 @@
+<% while(@view_loop < @the_history.count) %>
+	<%= @the_history[@view_loop] %>
+	<p>
+	<% @view_loop = @view_loop + 1 %>
+<% end %>
