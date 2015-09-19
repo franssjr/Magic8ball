@@ -27,8 +27,6 @@ Message.create(the_message: "My sources say no")
 Message.create(the_message: "Outlook not so good")
 Message.create(the_message: "Very doubtful")
 
-History.create
-
 # Message.create(the_message: "test")
 # Message.create(the_message: "test")
 # Message.create(the_message: "test")
