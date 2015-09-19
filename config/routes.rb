@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   resources :histories
+  resources :messages
 
   get 'welcome/index'
 
