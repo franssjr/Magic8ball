@@ -7,9 +7,9 @@ class CreateMessages < ActiveRecord::Migration
     end
 
     create_table :histories do |t|
-    	t.belongs_to :message, index: true
-    	
-    	t.timestamps null: false
+      t.belongs_to :message, index: true
+
+      t.timestamps null: false
     end
   end
 end

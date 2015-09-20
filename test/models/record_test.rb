@@ -6,6 +6,6 @@ class RecordTest < ActiveSupport::TestCase
   # end
 
   def setup
-  	puts "in test"
+    puts 'in test'
   end
 end

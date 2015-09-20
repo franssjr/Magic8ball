@@ -11,20 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150918013020) do
-
-  create_table "histories", force: true do |t|
-    t.integer  "message_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+ActiveRecord::Schema.define(version: 20_150_918_013_020) do
+  create_table 'histories', force: true do |t|
+    t.integer 'message_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  add_index "histories", ["message_id"], name: "index_histories_on_message_id"
+  add_index 'histories', ['message_id'], name: 'index_histories_on_message_id'
 
-  create_table "messages", force: true do |t|
-    t.string   "the_message"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table 'messages', force: true do |t|
+    t.string 'the_message'
+    t.datetime 'created_at'
+    t.datetime 'updated_at'
   end
-
 end

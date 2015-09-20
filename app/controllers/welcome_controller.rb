@@ -1,12 +1,11 @@
 class WelcomeController < ApplicationController
+  def index
+    # @failing_message = Message.new(the_message: "fail")
 
-	def index
-		#@failing_message = Message.new(the_message: "fail")
+    @all_messages = Message.all.shuffle
 
-		@all_messages = Message.all.shuffle
-		
-		@all_messages[1].histories.create
+    @all_messages[1].histories.create
 
-		#@failing_message.histories.create
-	end
+    # @failing_message.histories.create
+  end
 end

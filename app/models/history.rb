@@ -1,3 +1,3 @@
 class History < ActiveRecord::Base
-	belongs_to :message
+  belongs_to :message
 end
