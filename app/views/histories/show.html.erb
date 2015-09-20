@@ -1,5 +1,4 @@
-<% while(@view_loop < @num_of_histories) %>
-	<%= @all_histories[@view_loop].message.the_message %>
+<% @all_histories.each do |his| %>
+	<%= his.message.the_message %>
 	<p>
-	<% @view_loop = @view_loop + 1 %>
 <% end %>
