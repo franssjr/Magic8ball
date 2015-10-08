@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+
   resources :histories
+
+  # get 'histories/index', to: 'histories#index'
+  #get 'histories/show', to: 'histories#show'
+
+  #   get 'show'
+  # end
+
   resources :messages
 
   get 'welcome/index'

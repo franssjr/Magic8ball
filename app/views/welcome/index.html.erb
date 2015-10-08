@@ -1,2 +1,25 @@
-<%= @all_messages[1].the_message %>
-<!-- @answer.the_message %> -->
+<table border="1" style="width:100%">
+    <tr>
+      <th>Magic8Ball Messages</th>
+    </tr>
+
+    <% @all_messages.each do |m| %>
+    <tr>
+      <td><%= m.the_message %></td>
+      <td><%= link_to 'Delete', message_path(m), method: :delete %></td>
+      <td><%= link_to 'Edit', edit_message_path(m) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p>
+
+<%= link_to 'Get a message', messages_path %>
+
+<br>
+
+<%= link_to 'View history of messages', histories_path %>
+
+<br>
+
+<%= link_to 'Add your own message', new_message_path %>

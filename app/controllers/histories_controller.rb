@@ -5,4 +5,11 @@ class HistoriesController < ApplicationController
     @all_histories = History.all
     @view_loop = 0
   end
+
+  def index
+    @all_histories = History.all
+  end
+
+  def new
+  end
 end
