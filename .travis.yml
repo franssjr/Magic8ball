@@ -8,4 +8,4 @@ before_script:
  # script: bundle exec rspec spec
  deploy:
  	provider: heroku
- 	api_key: 6e0d90aa-abef-4c08-bc93-ff11463d11bc
+ 	#api_key: 6e0d90aa-abef-4c08-bc93-ff11463d11bc
