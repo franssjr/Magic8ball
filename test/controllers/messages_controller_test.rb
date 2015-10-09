@@ -33,6 +33,6 @@ class MessagesControllerTest < ActionController::TestCase
     get :index
 
     assert Message.all.any? { |m| response.body.include?(m.the_message) }
-    # assert response.body.include?(History.all.sort_by(&:created_at).first.message.the_message)
+    assert response.body.include?(History.all.sort_by(&:created_at).first.message.the_message)
   end
 end
