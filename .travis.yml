@@ -5,5 +5,5 @@ rvm:
 before_script:
  - psql -c 'create database my_test_development;' -U postgres
  - rake db:create db:migrate
-# deploy:
-#   	provider: heroku
+deploy:
+   	provider: heroku
