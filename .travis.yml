@@ -10,4 +10,4 @@ deploy:
   run:
   - rake db:migrate
   - restart
-  app: Test push
+  app: Magic8ball
