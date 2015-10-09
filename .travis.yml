@@ -4,7 +4,7 @@ rvm:
  - rbx
 before_script:
  - psql -c 'create database my_test_development;' -U postgres
- - rake db:create db:migrate
 deploy:
   provider: heroku
   api_key: 6e0d90aa-abef-4c08-bc93-ff11463d11bc
+  app: Magic8ball
