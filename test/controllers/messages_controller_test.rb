@@ -30,10 +30,9 @@ class MessagesControllerTest < ActionController::TestCase
   end
 
   test 'histories_created' do
-    # get :index
+    get :index
 
-    # assert Message.all.any? { |m| response.body.include?(m.the_message) }
+    assert Message.all.any? { |m| response.body.include?(m.the_message) }
     # assert response.body.include?(History.all.sort_by(&:created_at).first.message.the_message)
-    assert true
   end
 end
