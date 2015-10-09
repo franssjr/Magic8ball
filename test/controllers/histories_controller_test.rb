@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class HistoriesControllerTest < ActionController::TestCase
-  #  	test "the truth" do
-  #  		Message.create(the_message: "It is certain")
+  # test "the truth" do
+  # Message.create(the_message: "It is certain")
   # Message.create(the_message: "It is decidedly so")
   # Message.create(the_message: "Without a doubt")
   # Message.create(the_message: "Yes definitely")
