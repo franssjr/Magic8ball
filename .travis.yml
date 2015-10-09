@@ -7,4 +7,7 @@ before_script:
 deploy:
   provider: heroku
   api_key: 6e0d90aa-abef-4c08-bc93-ff11463d11bc
+  run:
+  - rake db:migrate
+  - restart
   app: Test push
