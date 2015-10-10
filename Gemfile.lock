@@ -1,3 +1,8 @@
+GEM
+  remote: https://rubygems.org/ 
+  specs:
+    minitest (5.8.1)
+
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   coffee-script-source (= 1.8.0)
