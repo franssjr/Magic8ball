@@ -13,4 +13,4 @@ deploy:
   # run:
   # - rake db:migrate
   # - restart
-  # app: Magic8ball
+  app: sheltered-depths-8222
