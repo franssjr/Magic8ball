@@ -9,12 +9,12 @@
 * Database information:
 	- Built using PostgreSQL
 	- To initialize database run:
-		$ <tt>rake db:create</tt>
-		$ <tt>rake db:migrate</tt>
-		$ <tt>rake db:seed</tt>
+
+		<tt>rake db:create</tt>
+
+		<tt>rake db:migrate</tt>
+		
+		<tt>rake db:seed</tt>
 
 * To run test suite:
-	$ <tt>rake db:test</tt>
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+	<tt>rake db:test</tt>
