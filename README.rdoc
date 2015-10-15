@@ -6,15 +6,16 @@
 
 * Ruby version: 2.1.5
 
-* Database information:
-	- Built using PostgreSQL
-	- To initialize database run:
+* Database built using PostgreSQL
 
-		<tt>rake db:create</tt>
+* To initialize database run:
 
-		<tt>rake db:migrate</tt>
-		
-		<tt>rake db:seed</tt>
+<tt>rake db:create</tt>
+
+<tt>rake db:migrate</tt>
+
+
+<tt>rake db:seed</tt>
 
 * To run test suite:
-	<tt>rake db:test</tt>
+<tt>rake db:test</tt>
